@@ -238,6 +238,19 @@ body {
   color: #5b6e8c;
   font-size: 14px;
 }
+/* FORCE FIX - Skills Text */
+.skill-card h3,
+.skill-card p {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.skills-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
+  gap: 32px !important;
+}
 /* EDUCATION SECTION */
 .education {
   background: #ebeff5;
