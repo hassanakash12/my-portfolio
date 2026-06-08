@@ -2,26 +2,16 @@ body {
   margin: 0;
   font-family: Arial;
   color: white;
-
-  /* ⭐ Attractive Gradient Background */
   background: linear-gradient(-45deg, #0f172a, #1e293b, #0ea5e9, #9333ea);
   background-size: 400% 400%;
   animation: gradientBG 10s ease infinite;
 }
 
-/* ✨ Animation */
 @keyframes gradientBG {
   0% {background-position: 0% 50%;}
   50% {background-position: 100% 50%;}
   100% {background-position: 0% 50%;}
-}
-.card, .box, section {
-  background: rgba(255, 255, 255, 0.08);
-  backdrop-filter: blur(10px);
-  border-radius: 10px;
-  padding: 20px;
-  margin: 10px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+
 }
 .profile-img {
   width: 260px;
@@ -383,7 +373,9 @@ body {
   gap: 16px;
   margin: 24px 0;
 }
-
+#contact * {
+  color: black !important;
+}
 .contact-details div {
   display: flex;
   align-items: center;
@@ -461,11 +453,31 @@ body {
     padding: 32px 24px;
   }
 }
-.button, .btn {
-  background: #38bdf8;
+
+button, .btn {
+  background: linear-gradient(135deg, #38bdf8, #0ea5e9);
   color: black;
-  padding: 10px 15px;
+  padding: 12px 18px;
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
   cursor: pointer;
+  transition: 0.3s;
 }
+
+button:hover, .btn:hover {
+  transform: scale(1.05);
+}
+
+.card, .box, section {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border-radius: 12px;
+  padding: 20px;
+  margin: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  transition: 0.3s;
+}
+.card:hover, .box:hover {
+  transform: translateY(-8px);
+  background: rgba(255, 255, 255, 0.12);
+  }
