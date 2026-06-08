@@ -197,19 +197,20 @@ body {
 }
 
 /* ABOUT */
-.about-content {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 18px;
-  color: #3a3a3a;
-  line-height: 1.6;
+.about-grid .card {
+  background: #ffffff !important;
+  color: #000000 !important;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  transition: 0.3s;
 }
 
-.about-content p {
-  margin-bottom: 20px;
-}
+.about-grid .card h3,
+.about-grid .card p {
+  color: black !important;
 
+}
 /* SKILLS */
 .skills-grid {
   display: grid;
@@ -258,21 +259,20 @@ body {
   gap: 32px;
 }
 
-.education-card {
-  background: #ffffff;
-  border-radius: 28px;
-  padding: 32px 28px;
-  border: 1px solid #eef2ff;
-  transition: all 0.25s ease;
-  text-align: center;
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  transition: 0.3s;
 }
-
-.education-card:hover {
+.card:hover {
   transform: translateY(-5px);
-  border-color: #cde3ff;
-  box-shadow: 0 15px 30px -12px rgba(0,119,255,0.1);
+  background: rgba(255, 255, 255, 0.12);
 }
-
 .edu-icon {
   font-size: 48px;
   color: #0077ff;
