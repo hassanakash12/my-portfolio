@@ -12,7 +12,7 @@
   box-sizing: border-box;
 }
 
-body {
+.body {
   font-family: 'Inter', sans-serif;
   background-color: #ebeff5;
   color: #111;
@@ -340,7 +340,7 @@ body {
 }
 
 /* CONTACT */
-contact-wrapper {
+.contact-wrapper {
   display: flex;
   flex-wrap: wrap;
   gap: 48px;
@@ -384,12 +384,12 @@ contact-wrapper {
   margin-top: 20px;
 }
 
-form {
+.form {
   max-width: 400px;
   margin: auto;
 }
 
-input, textarea {
+.input, textarea {
   width: 100%;
   padding: 10px;
   margin: 5px 0;
@@ -397,7 +397,7 @@ input, textarea {
   border: none;
 }
 
-form button {
+.form button {
   background-color: black;
   color: white;
   padding: 10px 20px;
@@ -406,7 +406,7 @@ form button {
   cursor: pointer;
 }
 
-form button:hover {
+.form button:hover {
   background-color: #222;
 
 }
@@ -444,7 +444,7 @@ form button:hover {
     padding: 32px 24px;
   }
 }
-body {
+.body {
   background: linear-gradient(135deg, #0f172a, #1e293b, #0ea5e9);
   color: white;
   font-family: Arial;
@@ -457,7 +457,7 @@ body {
   margin: 10px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
-button, .btn {
+.button, .btn {
   background: #38bdf8;
   color: black;
   padding: 10px 15px;
