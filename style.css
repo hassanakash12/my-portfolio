@@ -222,8 +222,13 @@ body {
   border-color: #cde3ff;
   box-shadow: 0 15px 25px -12px rgba(0,119,255,0.1);
 }
-
-.skill-card i {
+.skill p{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.skill-icon {
   font-size: 48px;
   color: #0077ff;
   margin-bottom: 20px;
@@ -265,7 +270,7 @@ body {
 .card {
   background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(12px);
-  color: white;
+  color: black;
   padding: 20px;
   border-radius: 12px;
   margin: 10px;
