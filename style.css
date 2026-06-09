@@ -232,25 +232,26 @@ body {
 .skills-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
+    gap: 25px;
+    margin-top: 20px;
 }
 
 /* CARD */
 .skill-card{
-    background: white;
+    background: #ffffff;
     padding: 25px;
     border-radius: 12px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    transition: 0.3s;
-    border: 1px solid transparent;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
     text-align: center;
+    border: 1px solid transparent;
 }
 
-/* HOVER */
+/* HOVER EFFECT */
 .skill-card:hover{
-    transform: translateY(-6px);
+    transform: translateY(-8px);
     border-color: #cde3ff;
-    box-shadow: 0 15px 25px -12px rgba(0,119,255,0.2);
+    box-shadow: 0 15px 30px rgba(0,119,255,0.15);
 }
 
 /* ICON */
@@ -263,38 +264,31 @@ body {
 /* TITLE */
 .skill-card h3{
     font-size: 20px;
-    margin-bottom: 10px;
+    margin: 10px 0;
+    color: #111;
 }
 
-/* DESCRIPTION */
+/* TEXT */
 .skill-card p{
-    color: #5b6e8c;
     font-size: 14px;
-}
-
-/* OPTIONAL TEXT STYLE */
-.skill-card p, .skill-card h3{
+    color: #5b6e8c;
     margin: 0;
 }
 
-/* DARK MODE SUPPORT */
+/* DARK MODE */
 .dark-mode .skill-card{
     background: #1e1e1e;
     color: white;
 }
-/* FORCE FIX - Skills Text */
-.skill-card h3,
-.skill-card p {
-  display: block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
+
+.dark-mode .skill-card h3{
+    color: white;
 }
 
-.skills-grid {
-  display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
-  gap: 32px !important;
+.dark-mode .skill-card p{
+    color: #ccc;
 }
+
 /* EDUCATION SECTION */
 .education {
   background: #ebeff5;
