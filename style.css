@@ -13,15 +13,6 @@ body {
   100% {background-position: 0% 50%;}
 
 }
-.dark-mode{
-    background:#121212;
-    color:white;
-}
-
-.dark-mode .card{
-    background:#1f1f1f;
-    color:white;
-}
 .social-icons a{
     font-size:30px;
     margin:10px;
@@ -89,6 +80,19 @@ body {
 
 .nav-links a:hover {
   color: #0077ff;
+}
+.dark-mode{
+    background-color:#121212;
+    color:white;
+}
+
+.dark-mode .card{
+    background-color:#1f1f1f;
+    color:white;
+}
+
+.dark-mode .navbar{
+    background-color:black !important;
 }
 
 /* ========== HERO SECTION ========== */
