@@ -1,5 +1,9 @@
-const btn = document.getElementById("darkModeBtn");
+document.addEventListener("DOMContentLoaded", function () {
 
-btn.onclick = function(){
- document.body.classList.toggle("dark-mode");
-};
+    const btn = document.getElementById("darkModeBtn");
+
+    btn.addEventListener("click", function () {
+        document.body.classList.toggle("dark-mode");
+    });
+
+});
