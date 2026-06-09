@@ -80,20 +80,6 @@ body {
   color: #0077ff;
 }
 
-.dark-mode{
-    background-color:#121212;
-    color:white;
-}
-
-.dark-mode .card{
-    background-color:#1f1f1f;
-    color:white;
-}
-
-.dark-mode .navbar{
-    background-color:black !important;
-}
-
 /* ========== HERO SECTION ========== */
 .hero {
   padding: 80px 0 60px;
@@ -232,13 +218,7 @@ body {
   box-shadow: 0 15px 30px rgba(0,0,0,0.15);
 }
 /* DARK MODE */
-.dark-mode .about-content{
-  background: #1e1e1e;
-  color: white;
-}
-.dark-mode .about-content p{
-  color: #ddd;
-}
+
 /* SKILLS */
 /* GRID */
 .skills-grid{
@@ -285,20 +265,6 @@ body {
     font-size: 14px;
     color: #5b6e8c;
     margin: 0;
-}
-
-/* DARK MODE */
-.dark-mode .skill-card{
-    background: #1e1e1e;
-    color: white;
-}
-
-.dark-mode .skill-card h3{
-    color: white;
-}
-
-.dark-mode .skill-card p{
-    color: #ccc;
 }
 
 /* EDUCATION SECTION */
@@ -352,17 +318,6 @@ body {
   color: #555;
   font-size: 14px;
   line-height: 1.6;
-}
-/* DARK MODE */
-.dark-mode .education-card{
-  background: #1e1e1e;
-  color: white;
-}
-.dark-mode .education-card h3{
-  color: white;
-}
-.dark-mode .edu-desc{
-  color: #ccc;
 }
 
 /* PROJECTS */
@@ -498,10 +453,28 @@ body {
 /* FOOTER */
 .footer {
   text-align: center;
-  padding: 32px 0;
+  padding: 25px 10px;
   color: #6c7a91;
   font-size: 14px;
-  background: #fefefe;
+  background: #f8fafc;
+  border-top: 1px solid #e5e7eb;
+}
+/* LINKS */
+.footer-links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.footer-links a {
+  text-decoration: none;
+  color: #0077ff;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.footer-links a:hover {
+  color: #005fd1;
+  transform: translateY(-2px);
 }
 
 /* RESPONSIVE */
