@@ -1,16 +1,3 @@
-// DARK MODE
-document.addEventListener("DOMContentLoaded", function () {
-
-  const btn = document.getElementById("darkModeBtn");
-
-  if (btn) {
-    btn.addEventListener("click", function () {
-      document.body.classList.toggle("dark-mode");
-    });
-  }
-
-});
-
 // SMOOTH SCROLL
 document.querySelectorAll('.nav-links a').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
