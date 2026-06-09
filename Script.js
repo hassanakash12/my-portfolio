@@ -7,3 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+document.getElementById("darkModeBtn").onclick = function(){
+    alert("Button Working");
+};
