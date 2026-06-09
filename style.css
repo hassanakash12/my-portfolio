@@ -13,6 +13,28 @@ body {
   100% {background-position: 0% 50%;}
 
 }
+.dark-mode{
+    background:#121212;
+    color:white;
+}
+
+.dark-mode .card{
+    background:#1f1f1f;
+    color:white;
+}
+.social-icons a{
+    font-size:30px;
+    margin:10px;
+    color:white;
+    transition:0.3s;
+}
+
+.social-icons a:hover{
+    color:#00d4ff;
+}
+.social-icons a{
+    color:black;
+}
 .profile-img {
   width: 260px;
   height: 260px;
